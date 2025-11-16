@@ -1,0 +1,40 @@
+
+---
+
+  # ===================================================================== #
+  #                                                                       #  
+  #  AUTHOR:       Jade Quinton Maggs                                     #
+  #  EMAIL:        jademaggs@gmail.com                                    #
+  #  UPDATED:      2025-11-17                                             #
+  #  R VERSION:    v4.5.0                                                 #
+  #                                                                       #
+  # ===================================================================== #
+
+
+# This is a YAML config file (example parameters set below)
+
+
+
+# DATA EXTRACT PARAMATERS
+
+
+# Set up output directory
+scenario: "combine"
+
+# Set up external directory
+aux_dat: "../auxiliary_data/output/base/" # This is the base auxiliary data output. Not to be confused with the base analysis
+
+
+# Species
+species: 'SNA'
+lw_a: 0.04467
+lw_b: 2.793
+
+
+# Fishing years
+fyears: 
+  - 1990  # 1989-90 fishing year
+  - 1991
+  - 1992
+  - 1993
+  - 1994
